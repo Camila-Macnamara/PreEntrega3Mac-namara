@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <title>PlutonicStore</title>
   </head>
    
@@ -150,9 +151,9 @@
         </button>
       </div>
 
-      <div class="container my-4">
-        <h2 class="text-center video-title">Video Promocional</h2>
-        <div class="video-container">
+      <div class="container my-4" data-aos="fade-up">
+        <h2 class="text-center video-title">Nueva Colección</h2>
+        <div class="video-container" data-aos="fade-up">
           <div class="embed-responsive embed-responsive-16by9">
             <video class="embed-responsive-item" controls autoplay muted>
               <source src="Multimedia/videopromocional.mp4" type="video/mp4" />
@@ -161,9 +162,9 @@
         </div>
       </div>
 
-      <section class="informacion-1">
+      <section class="informacion-1" data-aos="fade-up">
         <h1 class="titulo text-center display-4">Nuestros productos</h1>
-        <section class="grid-container">
+        <section class="grid-container" data-aos="fade-up">
           <div class="grid-item primer-item">
             <img src="Multimedia/imagen1.jpeg" alt="productos" />
             <div class="overlay">
@@ -197,78 +198,114 @@
         </section>
       </section>
 
-      <section class="informacion-2">
-        <h2 class="subtitulo">Búscanos en Instagram</h2>
-        <nav>
-          <ul class="fotos-instagram">
-            <li>
-              <img src="./Multimedia/instagram1.jpeg" alt="accesorios varios" />
-            </li>
-            <li>
-              <img
-                src="./Multimedia/instagram2.jpeg"
-                alt="accesorios varios y una joven"
-              />
-            </li>
-            <li>
-              <img src="./Multimedia/instagram3.jpeg" alt="accesorios varios" />
-            </li>
-            <li>
-              <img
-                src="./Multimedia/instagram5.jpeg"
-                alt="accesorios utilizados por dos jovenes"
-              />
-            </li>
-          </ul>
-        </nav>
-      </section>
 
-      <div class="card-group">
-        <div class="card custom-card">
+      <div class="jumbotron jumbotron-custom" data-aos="fade-up">
+        <div class="container">
+          <h1 class="display-4">Suscríbete a Plutonic News y recibe un 15% de dcto.</h1>
+          <hr class="my-4">
+          <p>¡Novedades y descuentos exclusivos para ti!</p>
+          <a class="btn btn-subscribe btn-lg" href="#" role="button">Suscribirse</a>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <h2 class="mt-4 mb-3">Favoritos</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class=" card-destacado product-card">
+              <img src="multimedia/Aros-1.jpg" class="card-img" alt="Producto 1">
+              <div class="card-info">
+                <h5 class="card-title">Aros animé</h5>
+                <a href="#" class="btn btn-custom">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class=" card-destacado product-card">
+              <img src="multimedia/Aros-2.jpg" class="card-img" alt="Producto 2">
+              <div class="card-info">
+                <h5 class="card-title">Aros Princess</h5>
+                <a href="#" class="btn btn-custom">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class=" card-destacado product-card">
+              <img src="multimedia/Aros-3.jpg" class="card-img" alt="Producto 3">
+              <div class="card-info">
+                <h5 class="card-title">Pack 4 pares de aros </h5>
+                <a href="#" class="btn btn-custom">Ver más</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class=" card-destacado product-card">
+              <img src="multimedia/Aros-4.jpg" class="card-img" alt="Producto 4">
+              <div class="card-info">
+                <h5 class="card-title">Aros chico animé</h5>
+                <a href="#" class="btn btn-custom">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <h2 class="mb-4"> Búscanos en Instagram </h2>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-a23976f4-234d-4c95-8916-f03535ec2b48" data-elfsight-app-lazy style="max-width: 100%; overflow: hidden;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group" data-aos="fade-up">
+        <div class="card custom-card" data-aos="fade-up">
           <img
             src="Multimedia/icono-camion.svg"
             class="card-img-top"
             alt="informacion sobre envios de pedidos"
           />
-          <div class="card-body">
+          <div class="card-body" data-aos="fade-up">
             <h5 class="card-title">Envios</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Envios gratis por compras superiores a $25.000.
             </p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" data-aos="fade-up">
           <img
             src="Multimedia/icono-tienda.svg"
             class="card-img-top"
             alt="icono de uuna tienda que alude a retiros en tienda"
           />
-          <div class="card-body">
+          <div class="card-body" data-aos="fade-up">
             <h5 class="card-title">Retiro en tienda</h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              Gratuito sin costo de despacho.
             </p>
           </div>
         </div>
-        <div class="card custom-card">
+        <div class="card custom-card" data-aos="fade-up">
           <img
             src="Multimedia/cambios.svg"
             class="card-img-top"
             alt=" icono sobre cambios y devoluciones de productos"
           />
-          <div class="card-body">
+          <div class="card-body" data-aos="fade-up">
             <h5 class="card-title">Cambios y devoluciones</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Presenta tu boleta en cualquiera de nuestras sucursales.
             </p>
           </div>
         </div>
       </div>
+
     </main>
 
     <footer>
@@ -302,5 +339,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

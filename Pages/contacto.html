@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <title>Contacto</title>
   </head>
 
@@ -85,13 +86,35 @@
     </header>
 
     <main>
-      <h2>Contacto</h2>
-      <div class="container text-left">
-        <div class="row justify-content-end">
-          <div class="col-md-6 formulario-contacto">
-            <h3 class="mb-4">
-              Necesitas comunicarte con nosotros, escribe aqui
-            </h3>
+      <div class="container">
+        <div class="container-minibanner" data-aos="fade-up" >
+            <img src="/Multimedia/minnibannercontacto.png" class="img-fluid horizontal-banner" alt="Banner horizontal responsive">
+            <img src="/Multimedia/minnibannercontactov.png" class="img-fluid vertical-banner" alt="Banner vertical responsive">
+        </div>
+     </div>
+
+
+
+
+      <div class="container container-seccion">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>Nos encantaría escucharte</h2>
+            <p>
+              Nuestro equipo de servicio al cliente está disponible para atender tus consultas de manera continua, de lunes a domingo, 
+              desde las 9:00 AM hasta las 9:00 PM. 
+            </p>
+            <p> 
+              Puedes contactarnos llenando el formulario de atención disponible aquí. 
+              Nos comprometemos a responder tu consulta lo antes posible.
+            </p>
+            <p>
+              Si prefieres, también puedes comunicarte con nosotros por teléfono al (+56) 227126162 durante el mismo horario mencionado anteriormente.
+              Para facilitar una respuesta rápida, te recomendamos que utilices un solo canal de comunicación y evites contactarnos por varios medios simultáneamente.
+            </p>
+          </div>
+          <div class="col-md-6 formulario-contacto" data-aos="fade-up">
+            <h2 class="mb-4">Escríbenos aquí</h2>
             <form>
               <div class="form-group">
                 <label for="nombre">Nombre:</label>
@@ -120,33 +143,64 @@
                   placeholder="Escribe tu mensaje"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">
-                Enviar Mensaje
-              </button>
+              <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
             </form>
           </div>
         </div>
       </div>
-
-      <div class="container">
-        <h2>Ubicación</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          maxime dignissimos dolore reiciendis? Nostrum repellat alias ex,
-          maiores fugit dolore corrupti eaque tempore obcaecati.
-        </p>
-        <div class="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212999.27175099988!2d-70.79463752856736!3d-33.472392499662654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1717695836859!5m2!1ses!2scl"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+      
+      <div class="jumbotron jumbotron-custom" data-aos="fade-up">
+        <div class="container">
+          <h1 class="display-4"> ¡Apertura de nuevas sucursales Macul, Ñuñoa y Santiago Centro!</h1>
+          <hr class="my-4">
+          <p>¡Conoce todas nuestras sucursales a lo largo del país!</p>
         </div>
       </div>
+    
+      <div class="container container-seccion" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Sucursales Plutonic Store</h2>
+            <p>
+              Descubre nuestras tiendas en Santiago
+            </p>
+            <p>
+              Tienda Central:
+            </p>
+            <p>
+              Nuestra tienda principal está ubicada en el corazón de Santiago, 
+              en la Avenida Libertador Bernardo O'Higgins 1201. 
+              Con fácil acceso desde la estación de metro Universidad de Chile,
+              somos el destino ideal para quienes buscan moda de alta calidad y excelente servicio al cliente en el centro de la ciudad.
+            </p>
+            <p>
+              Tienda en Providencia:
+            </p>
+            <p>
+              Visítanos en el bullicioso barrio de Providencia, 
+              en la Avenida Providencia 2209. Esta ubicación privilegiada, 
+              a solo unos pasos de la estación de metro Los Leones, ofrece 
+              una amplia gama de productos y acceso conveniente para los residentes 
+              y visitantes de la zona oriente de Santiago.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="map-container" data-aos="fade-up">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212999.27175099988!2d-70.79463752856736!3d-33.472392499662654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1717695836859!5m2!1ses!2scl"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
     </main>
     <footer>
       <div class="container">
@@ -178,5 +232,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
