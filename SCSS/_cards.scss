@@ -1,0 +1,97 @@
+/* Estilos de cards para productos destacados*/
+
+.product-card {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+
+    .card-img {
+        @include size(100%, 100%);
+        object-fit: cover;
+    }
+
+    .card-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+    }
+}
+
+.card-destacado:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.btn-custom {
+    background-color: #f2d7db;
+    background-image: linear-gradient(60deg, #f2d7db 11%, #add8e6 63%);
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* css de cards de productos*/
+
+.card-img-top {
+    @include size(100%, auto);
+}
+
+.card-productos {
+    margin-bottom: 30px;
+    overflow: hidden;
+
+    .card-img-top {
+        height: 450px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .card-body {
+        padding: 20px;
+        transition: transform 0.3s ease;
+    }
+}
+
+.card-title {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Card de informacion index */
+
+.card {
+    align-items: center;
+    text-align: center;
+    background-color: black;
+
+    img {
+        @include size(50px, 50px);
+    }
+}
+
+.custom-card {
+    border: none;
+}
+
+.card-group {
+    margin: 50px;
+}
+
+div .card.custom-card {
+    border: none;
+    border-radius: 0;
+}
+

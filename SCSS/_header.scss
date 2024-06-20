@@ -1,0 +1,59 @@
+.logo {
+    width: 20%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 300px) {
+        width: 50px;
+    }
+}
+
+.top-banner {
+    background-color: #f2d7db;
+    background-image: $color-gradiente;
+    align-items: center;
+    color: #333;
+    padding: 3px 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
+
+    @media (max-width: 700px) {
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+}
+
+
+.navbar-color {
+    background-color: #add8e6;
+}
+
+header nav ul {
+    font-family: "Raleway";
+}
+
+header nav li a:hover {
+    background-color: #ffb6c1;
+}
+
+.carousel {
+    width: 98%;
+    height: auto;
+    margin: auto;
+
+    .carousel-item {
+        img {
+            object-fit: cover;
+            max-height: 650px;
+        }
+    }
+}

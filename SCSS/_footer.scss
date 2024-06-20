@@ -1,0 +1,20 @@
+/* Estilos de footer */
+footer {
+    background-color: #f2d7db;
+    background-image: linear-gradient(60deg, #f2d7db 11%, #add8e6 63%);
+    color: white;
+    padding: 20px;
+    list-style-type: none;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

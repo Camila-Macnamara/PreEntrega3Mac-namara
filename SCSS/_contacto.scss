@@ -1,0 +1,39 @@
+/* Estilo para fomulario de contacto*/
+
+.formulario-contacto {
+    max-width: 400px;
+    margin: auto;
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        padding: 0.375rem 0.75rem;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 0.375rem 0.75rem;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para mapa*/
+
+.map-container {
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 56.25%;
+    padding-top: 200px;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include size(100%, 100%);
+    }
+}
+
