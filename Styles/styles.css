@@ -22,24 +22,24 @@
   background-color: #f2d7db;
   background-image: linear-gradient(60deg, #f2d7db 11%, #add8e6 63%);
   align-items: center;
-  color: #333; 
-  padding: 3px 10px; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  font-size: 14px; 
+  color: #333;
+  padding: 3px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
   text-align: center;
 }
 
 @media (max-width: 700px) {
   .top-banner {
-    padding: 2px 6px; 
-    font-size: 12px; 
+    padding: 2px 6px;
+    font-size: 12px;
   }
 }
 
 .top-banner p {
-  margin: 0; 
+  margin: 0;
 }
 
 .navbar-color {
@@ -121,31 +121,6 @@ h3 {
   justify-content: center;
 }
 
-.fotos-instagram {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-}
-
-.fotos-instagram:hover img {
-  transition: transform 0.5s ease;
-  transform: scale(1.2);
-}
-
-.fotos-instagram li {
-  width: 200px;
-  margin: 10px;
-}
-
-.fotos-instagram img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
 main nav ul {
   list-style-type: none;
   text-decoration: none;
@@ -197,16 +172,17 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: 350px 350px 350px;
   grid-template-columns: 3fr 2fr;
-  row-gap: 5px;
-  column-gap: 5px;
+  row-gap: 10px;
+  column-gap: 10px;
   margin: 20px auto;
   padding: 5px;
-  max-width: 750px;
+  max-width: 1200px;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 730px) {
   .grid-container {
     grid-template-columns: 1fr;
     display: block;
@@ -218,11 +194,12 @@ p {
 .grid-item {
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
   .grid-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -266,6 +243,10 @@ p {
   height: 100%;
   display: block;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.grid-item:hover img {
+  transform: scale(1.1);
 }
 
 .primer-item {
@@ -297,11 +278,31 @@ p {
   width: 100%;
   height: auto;
 }
+
 .card-productos {
   margin-bottom: 30px;
+  overflow: hidden;
 }
+
+.card-productos .card-img-top {
+  height: 450px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-productos:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+
+.card-productos .card-body {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
 .card-title {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .formulario-contacto {
@@ -399,11 +400,11 @@ footer a {
 }
 
 .info-section {
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .info-section:first-of-type {
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 .info-section .col-md-6 {
@@ -411,8 +412,8 @@ footer a {
 }
 
 .info-section img {
-  border-radius: 8px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .jumbotron-custom {
@@ -421,8 +422,8 @@ footer a {
   padding: 20px 0;
   text-align: center;
   color: #333;
-  width: 80%; 
-  margin: 0 auto; 
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 80px;
 }
 
@@ -456,6 +457,7 @@ footer a {
   height: 500px;
   overflow: hidden;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
 
 }
 
@@ -492,10 +494,10 @@ footer a {
 }
 
 .container-seccion {
-  margin-top: 50px; 
-  margin-bottom: 50px; 
-  padding-top: 30px; 
-  padding-bottom: 30px; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: justify;
 }
 .container-seccion h2,
@@ -504,8 +506,8 @@ footer a {
 }
 
 .container-minibanner {
-  margin-top: 20px; 
-  margin-bottom: 20px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -514,22 +516,22 @@ footer a {
 .container-minibanner {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center; 
-  padding: 10px; 
+  text-align: center;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media (min-width: 770px) { 
+@media (min-width: 770px) {
   .vertical-banner {
-      display: none; 
+      display: none;
   }
 }
 
-@media (max-width: 769px) { 
+@media (max-width: 769px) {
   .horizontal-banner {
-      display: none; 
+      display: none;
   }
 }
 
