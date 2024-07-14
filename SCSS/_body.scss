@@ -1,4 +1,5 @@
-/*  estilos de texto para el body*/
+
+/*  Estilos de texto para el body*/
 .titulo-principal {
     color: #ffb6c1;
     font-family: "Raleway";
@@ -38,6 +39,15 @@ p {
     font-size: 1rem;
     font-family: "Raleway";
 }
+
+/* Estilos de background*/
+main {
+    background-image: url(../Multimedia/colorful-patterned-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #555;
+}
+
 
 /* Estilos de carrousel del index */
 
@@ -142,7 +152,7 @@ p {
 /* Estilos de minibanners*/
 
 .container-minibanner {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
     padding: 10px;
@@ -165,4 +175,62 @@ p {
 
 .pagination {
     justify-content: center;
+}
+
+/* Estilos del modal código de descuento */
+
+.modal-dialog {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 576px) {
+        margin-top: 5vh;
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) {
+        margin-top: 8vh;
+    }
+}
+
+.modal-content {
+    border: none !important;
+    background: transparent !important;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.close {
+    color: #000 !important;
+    font-size: 1rem !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    @media (max-width: 576px) {
+        font-size: 0.8rem;
+    }
+}
+
+.modal-body {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.img-fluid-modal {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+    @media (max-width: 576px) {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) {
+        max-width: 50%;
+        margin: 0 auto;
+    }
 }

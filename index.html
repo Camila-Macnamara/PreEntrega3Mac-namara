@@ -1,347 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-    <title>PlutonicStore</title>
-  </head>
-   
-  <div class="top-banner bg-light py-2 px-3 d-flex justify-content-between align-items-center">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <title>PlutonicStore</title>
+</head>
+
+<div class="top-banner bg-light py-2 px-3 d-flex justify-content-between align-items-center">
   <p class="mb-0 top-banner">Envío gratis a todo chile por compras sobre $25.000</p>
-  </div>
+</div>
 
-  <body>
-    <header>
-      <div>
-        <img
-          src="./Multimedia/logoplutonic.png"
-          alt="Logo plutonic store"
-          class="logo"
-        />
-      </div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid navbar-color">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/aros.html">Aros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/collares.html">Collares</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/nosotros.html">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Buscar
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div id="carouselExampleCaptions" class="carousel slide carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="Multimedia/banner-3.png"
-              class="d-block w-100"
-              alt="imagen de ofertas 30%"
-            />
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="Multimedia/banner8.png"
-              class="d-block w-100"
-              alt="imagen sobre descuentos increibles en collares"
-            />
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="Multimedia/banner7.png"
-              class="d-block w-100"
-              alt=" imagen sobre descuentos increibles en accesorios"
-            />
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+<body>
+  <header>
+    <div>
+      <img src="./Multimedia/logoplutonic.png" alt="Logo plutonic store" class="logo" />
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar-color">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/aros.html">Aros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/collares.html">Collares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
       </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Multimedia/banner-3.png" class="d-block w-100" alt="imagen de ofertas 30%" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="Multimedia/banner8.png" class="d-block w-100"
+            alt="imagen sobre descuentos increibles en collares" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="Multimedia/banner7.png" class="d-block w-100"
+            alt=" imagen sobre descuentos increibles en accesorios" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <div class="container my-4" data-aos="fade-up">
-        <h1 class="titulo-principal text-center video-title">Nueva Colección</h1>
-        <div class="video-container" data-aos="fade-up">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls autoplay muted>
-              <source src="Multimedia/videopromocional.mp4" type="video/mp4" />
-            </video>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="Multimedia/descuento.png" alt="Imagen sobre codigo de descuento" class="img-fluid-modal" />
           </div>
         </div>
       </div>
+    </div>
 
-      <section class="informacion-1" data-aos="fade-up">
-        <h2 class="subtitulo text-center display-4">Nuestros productos</h2>
-        <section class="grid-container" data-aos="fade-up">
-          <div class="grid-item primer-item">
-            <img src="Multimedia/aros9.png" alt="imagen de aros disponibles" />
-            <div class="overlay">
-              <a href="Pages/aros.html"> Todo en Aretes</a>
-            </div>
+    <div class="container my-4" data-aos="fade-up">
+      <h1 class="titulo-principal text-center video-title">Nueva Colección</h1>
+      <div class="video-container" data-aos="fade-up">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls autoplay muted>
+            <source src="Multimedia/videopromocional.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <section class="informacion-1" data-aos="fade-up">
+      <h2 class="subtitulo text-center display-4">Nuestros productos</h2>
+      <section class="grid-container" data-aos="fade-up">
+        <div class="grid-item primer-item">
+          <img src="Multimedia/aros9.png" alt="imagen de aros disponibles" />
+          <div class="overlay">
+            <a href="Pages/aros.html"> Todo en Aretes</a>
           </div>
-          <div class="grid-item segundo-item">
-            <img src="Multimedia/conjunto-collares.png" alt="imagen de conjunto de collares" />
-            <div class="overlay">
-              <a href="Pages/collares.html"> Todo en Collares</a>
-            </div>
+        </div>
+        <div class="grid-item segundo-item">
+          <img src="Multimedia/conjunto-collares.png" alt="imagen de conjunto de collares" />
+          <div class="overlay">
+            <a href="Pages/collares.html"> Todo en Collares</a>
           </div>
-          <div class="grid-item tercer-item">
-            <img src="Multimedia/aros-novedades-2.png" alt="imagen de productos novedosos" />
-            <div class="overlay">
-              <a href="Pages/collares.html"> Ofertas</a>
-            </div>
+        </div>
+        <div class="grid-item tercer-item">
+          <img src="Multimedia/aros-novedades-2.png" alt="imagen de productos novedosos" />
+          <div class="overlay">
+            <a href="Pages/collares.html"> Ofertas</a>
           </div>
-          <div class="grid-item cuarto-item">
-            <img src="Multimedia/aros-novedades.png" alt="imagen de productos novedosos" />
-            <div class="overlay">
-              <a href="Pages/aros.html"> Novedades</a>
-            </div>
+        </div>
+        <div class="grid-item cuarto-item">
+          <img src="Multimedia/aros-novedades.png" alt="imagen de productos novedosos" />
+          <div class="overlay">
+            <a href="Pages/aros.html"> Novedades</a>
           </div>
-          <div class="grid-item quinto-item">
-            <img src="Multimedia/todo-en-pulseras.png" alt="imagen de pulseras" />
-            <div class="overlay">
-              <a href="Pages/pulseras.html"> Todo en Pulseras</a>
-            </div>
+        </div>
+        <div class="grid-item quinto-item">
+          <img src="Multimedia/todo-en-pulseras.png" alt="imagen de pulseras" />
+          <div class="overlay">
+            <a href="Pages/collares.html"> Todo en Pulseras</a>
           </div>
-        </section>
+        </div>
       </section>
+    </section>
 
 
-      <div class="jumbotron jumbotron-custom" data-aos="fade-up">
-        <div class="container">
-          <h1 class="display-4">Suscríbete a Plutonic News y recibe un 15% de dcto.</h1>
-          <hr class="my-4">
-          <p>¡Novedades y descuentos exclusivos para ti!</p>
-          <a class="btn btn-subscribe btn-lg" href="#" role="button">Suscribirse</a>
-        </div>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-        <h2 class="mt-4 mb-3">Favoritos</h2>
-        <div class="row">
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
-            <div class=" card-destacado product-card">
-              <img src="Multimedia/aros1.png" class="card-img" alt="imaen de aros en forma de margaritas">
-              <div class="card-info">
-                <h5 class="card-title">Aros Margaritas</h5>
-                <a href="Pages/aros.html" class="btn btn-custom">Ver más</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
-            <div class=" card-destacado product-card">
-              <img src="Multimedia/collar7.png" class="card-img" alt="imagen de collar en forma de corazon rosado">
-              <div class="card-info">
-                <h5 class="card-title">Collar corazón brillante</h5>
-                <a href="Pages/collares.html" class="btn btn-custom">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
-            <div class=" card-destacado product-card">
-              <img src="Multimedia/collar4.png" class="card-img" alt="imagen de collar dorado doble">
-              <div class="card-info">
-                <h5 class="card-title"> Collar dorado corazón </h5>
-                <a href="Pages/collares.html" class="btn btn-custom">Ver más</a>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
-            <div class=" card-destacado product-card">
-              <img src="Multimedia/aros7.png" class="card-img" alt="imagen de aros corazón saturno">
-              <div class="card-info">
-                <h5 class="card-title">Aros corazón Saturno</h5>
-                <a href="Pages/aros.html" class="btn btn-custom">Ver más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <h2 class="mb-4"> Búscanos en Instagram </h2>
-          </div>
-          <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-            <div class="elfsight-app-a23976f4-234d-4c95-8916-f03535ec2b48" data-elfsight-app-lazy style="max-width: 100%; overflow: hidden;"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-group" data-aos="fade-up">
-        <div class="card custom-card" data-aos="fade-up">
-          <img
-            src="Multimedia/icono-camion.svg"
-            class="card-img-top"
-            alt="informacion sobre envios de pedidos"
-          />
-          <div class="card-body" data-aos="fade-up">
-            <h5 class="card-title">Envios</h5>
-            <p class="card-text">
-              Envios gratis por compras superiores a $25.000.
-            </p>
-          </div>
-        </div>
-        <div class="card custom-card" data-aos="fade-up">
-          <img
-            src="Multimedia/icono-tienda.svg"
-            class="card-img-top"
-            alt="icono de uuna tienda que alude a retiros en tienda"
-          />
-          <div class="card-body" data-aos="fade-up">
-            <h5 class="card-title">Retiro en tienda</h5>
-            <p class="card-text">
-              Gratuito sin costo de despacho.
-            </p>
-          </div>
-        </div>
-        <div class="card custom-card" data-aos="fade-up">
-          <img
-            src="Multimedia/cambios.svg"
-            class="card-img-top"
-            alt=" icono sobre cambios y devoluciones de productos"
-          />
-          <div class="card-body" data-aos="fade-up">
-            <h5 class="card-title">Cambios y devoluciones</h5>
-            <p class="card-text">
-              Presenta tu boleta en cualquiera de nuestras sucursales.
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </main>
-
-    <footer>
+    <div class="jumbotron jumbotron-custom" data-aos="fade-up">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="footer-content">
-              <p>&copy; 2024 Tu Empresa</p>
+        <h1 class="display-4">Suscríbete a Plutonic News y recibe un 15% de dcto.</h1>
+        <hr class="my-4">
+        <p>¡Novedades y descuentos exclusivos para ti!</p>
+        <a class="btn btn-subscribe btn-lg" href="#" role="button">Suscribirse</a>
+      </div>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+      <h2 class="mt-4 mb-3">Favoritos</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class=" card-destacado product-card">
+            <img src="Multimedia/aros1.png" class="card-img" alt="imaen de aros en forma de margaritas">
+            <div class="card-info">
+              <h5 class="card-title">Aros Margaritas</h5>
+              <a href="Pages/aros.html" class="btn btn-custom">Ver más</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <p class="text-md-right">Síguenos en:</p>
-            <ul class="list-inline text-md-right">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/">Facebook</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.tiktok.com/es/">TikTok</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/">Instagram</a>
-              </li>
-            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class=" card-destacado product-card">
+            <img src="Multimedia/collar7.png" class="card-img" alt="imagen de collar en forma de corazon rosado">
+            <div class="card-info">
+              <h5 class="card-title">Collar corazón brillante</h5>
+              <a href="Pages/collares.html" class="btn btn-custom">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class=" card-destacado product-card">
+            <img src="Multimedia/collar4.png" class="card-img" alt="imagen de collar dorado doble">
+            <div class="card-info">
+              <h5 class="card-title"> Collar dorado corazón </h5>
+              <a href="Pages/collares.html" class="btn btn-custom">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class=" card-destacado product-card">
+            <img src="Multimedia/aros7.png" class="card-img" alt="imagen de aros corazón saturno">
+            <div class="card-info">
+              <h5 class="card-title">Aros corazón Saturno</h5>
+              <a href="Pages/aros.html" class="btn btn-custom">Ver más</a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <h2 class="mb-4"> Búscanos en Instagram </h2>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+          <div class="elfsight-app-a23976f4-234d-4c95-8916-f03535ec2b48" data-elfsight-app-lazy
+            style="max-width: 100%; overflow: hidden;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-group" data-aos="fade-up">
+      <div class="card custom-card" data-aos="fade-up">
+        <img src="Multimedia/icono-camion.svg" class="card-img-top" alt="informacion sobre envios de pedidos" />
+        <div class="card-body" data-aos="fade-up">
+          <h5 class="card-title">Envios</h5>
+          <p class="card-text">
+            Envios gratis por compras superiores a $25.000.
+          </p>
+        </div>
+      </div>
+      <div class="card custom-card" data-aos="fade-up">
+        <img src="Multimedia/icono-tienda.svg" class="card-img-top"
+          alt="icono de uuna tienda que alude a retiros en tienda" />
+        <div class="card-body" data-aos="fade-up">
+          <h5 class="card-title">Retiro en tienda</h5>
+          <p class="card-text">
+            Gratuito sin costo de despacho.
+          </p>
+        </div>
+      </div>
+      <div class="card custom-card" data-aos="fade-up">
+        <img src="Multimedia/cambios.svg" class="card-img-top" alt=" icono sobre cambios y devoluciones de productos" />
+        <div class="card-body" data-aos="fade-up">
+          <h5 class="card-title">Cambios y devoluciones</h5>
+          <p class="card-text">
+            Presenta tu boleta en cualquiera de nuestras sucursales.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-content">
+            <p>&copy; 2024 Plutonic Store. Todos los derechos reservados.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="text-md-right">Síguenos en:</p>
+          <ul class="list-inline text-md-right">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/">Facebook</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.tiktok.com/es/">TikTok</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    window.onload = function () {
+      var modal = new bootstrap.Modal(document.getElementById('imageModal'));
+      modal.show();
+
+      setTimeout(function () {
+        modal.hide();
+      }, 6000);
+    };
+  </script>
+</body>
+
 </html>
